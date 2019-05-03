@@ -33,7 +33,7 @@ class App extends Component {
   _handleUpdateSold = (sold_num, productId) => {
     console.log("repeated");
     axios({
-      url: 'http://localhost:6969/api/stock/'+productId,
+      url: '/api/stock/'+productId,
       method: 'put',
       data: {
         sold: sold_num
