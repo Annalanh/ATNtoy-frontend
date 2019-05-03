@@ -1,33 +1,39 @@
-.App {
-  text-align: center;
+.form-container{
+  position: relative;
+  margin-bottom: 100px;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.input-sold{
+  top: 10px;
+  position: absolute;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.click{
+  top: 50px;
+  position: absolute;
 }
-
-.App-link {
-  color: #61dafb;
+.space{
+  margin-top: 20px;
+  height: 50px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h6{
+  color: black
+}
+.main-func{
+  color: black;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+.login{
+  margin-top: 100px;
+}
+.girl_image{
+  background: rgb(219, 218, 218);
+  border-radius: 10px;
+  padding: 5px;
+  margin-top: 10px;
+}
+img{
+  border-radius: 10px;
+}
+.navbar{
+  background:rgb(230, 227, 227)
 }
